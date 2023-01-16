@@ -15,3 +15,11 @@ form.onsubmit = function (event) {
 
   input.value = '';
 };
+
+ul.onclick = function (event) {
+  if (event.target.classList.contains('delete')) {
+    if (confirm('Deseja deletar este item?')) {
+      event.target.parentElement.remove();
+    }
+  }
+};
