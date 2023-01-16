@@ -14,6 +14,9 @@ Base html e tailwind (https://www.fronteditor.dev/gists/d75d7978838126e93830ba97
 
 ## Criação de Elementos
 
+- .createElement()
+- template literals ``
+
 ## .cloneNode()
 
 ## classList
